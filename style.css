@@ -1,0 +1,109 @@
+body{
+background: #5b7b9a;
+}
+
+.container{
+  width: 500px;
+  margin: 50px auto;
+}
+
+.msg_holder {
+  height: 20px;
+  background: black;
+  color: white;
+  /* margin: 120px 120px 0 120px; */
+  text-align: center;
+  margin: 10px 0;
+}
+
+.form_holder {
+  /* height: 120px; */
+  background: #4bfcc1;
+  /* color: #0806f8; */
+  align-content: center;
+  padding: 10px;
+margin-bottom: 10px;
+}
+
+.welcome {
+  height: 80px;
+  width: 200px;
+  background: #ff00c6;
+  font-size: 16px;
+}
+
+.welcom_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.image_container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .image_container h6 {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  margin-top: -22px;
+  background: rgba(0, 0, 0, 0.7);
+  color: wheat;
+  font-size: 1rem;
+  padding-bottom: 2px;
+} */
+
+.booklist table{
+  border: 0;
+  border-collapse: collapse;
+  display: none;
+  margin-bottom: 50px;
+}
+
+.getBook table{
+  border: 0;
+  border-collapse: collapse;
+  display: none;
+  margin-bottom: 50px;
+}
+
+
+/* table{
+  border: 0;
+  border-collapse: collapse;
+  display: none;
+  margin-bottom: 50px;
+} */
+
+.booklist.active table, .getBook.active table{
+  display: block;
+}
+
+.booklist table tr th, .booklist table tr td{
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+}
+
+.getBook table tr th, .getBook table tr td{
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+}
+
+/* table th, table td{
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+} */
